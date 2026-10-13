@@ -12,3 +12,13 @@ nix develop
 ```bash
 chmod +x font-patcher.sh
 ```
+
+4. Run script.
+```bash
+./font-patcher.sh ./<NAME_OF_FONT_FOLDER> ./<NAME_THE_FOLDER_TO_OUTPUT_PATCHED_FONTS>
+```
+
+5. Exit nix-shell when done.
+```nix
+exit
+```
